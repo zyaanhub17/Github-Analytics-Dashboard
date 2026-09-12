@@ -1,0 +1,17 @@
+{
+  "name": "github-dashboard-backend",
+  "version": "1.0.0",
+  "description": "Backend proxy server for GitHub Analytics Dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.22.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.14"
+  }
+}
